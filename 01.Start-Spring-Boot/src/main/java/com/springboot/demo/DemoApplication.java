@@ -11,7 +11,7 @@ public class DemoApplication {
 
 	@RequestMapping("/")
 	String index() {
-		return "hello spring boot";
+		return "hello spring!!";
 	}
 
 	public static void main(String[] args) {
