@@ -4,8 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
-import com.springboot.bean.ConfigBean;
-import com.springboot.bean.TestConfigBean;
+import com.springboot.pojo.ConfigBean;
+import com.springboot.pojo.TestConfigBean;
 
 /**
  *
