@@ -18,7 +18,8 @@ public class StudentServiceImp implements StudentService {
 
 	@Override
 	public int add(Student student) {
-		return this.studentDao.add(student);
+//		return this.studentDao.add(student);
+		return this.studentDao.insertBySimpleInsert(student);
 	}
 
 	@Override

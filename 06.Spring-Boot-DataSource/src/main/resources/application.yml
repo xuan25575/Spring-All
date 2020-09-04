@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.jdbc.Driver
+    druid:
+      first:  #数据源1
+        url: jdbc:mysql://localhost:3306/h_sword?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8
+        username: root
+        password: root
+      second: #数据源2
+        url: jdbc:mysql://localhost:3306/ruoyi?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8
+        username: root
+        password: root
