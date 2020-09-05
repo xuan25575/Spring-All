@@ -1,13 +1,9 @@
-package com.springboot.http;
+package com.springboot.netty.http;
 
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.codec.http.HttpServerCodec;
-import io.netty.handler.codec.string.StringDecoder;
-import io.netty.handler.codec.string.StringEncoder;
-
-import java.nio.charset.Charset;
 
 public class TestServerInitializer extends ChannelInitializer<NioSocketChannel> {
 

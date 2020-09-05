@@ -50,6 +50,7 @@ public class MyServer {
                              * 3. 浏览器请求时 ws://localhost:7000/hello 表示请求的 uri
                              * 4. WebSocketServerProtocolHandler 核心功能是将 http 协议升级为 ws 协议 , 保持长连接
                              * 5. 是通过一个 状态码 101
+                             * 6。WebSocket是HTML5中的协议，支持持久连接；而Http协议不支持持久连接。
                              */
                             pipeline.addLast(new WebSocketServerProtocolHandler("/hello"));
 

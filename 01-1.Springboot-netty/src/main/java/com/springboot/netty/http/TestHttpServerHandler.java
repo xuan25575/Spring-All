@@ -1,4 +1,4 @@
-package com.springboot.http;
+package com.springboot.netty.http;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;

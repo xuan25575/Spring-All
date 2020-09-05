@@ -1,4 +1,4 @@
-package com.springboot.netty;
+package com.springboot.netty.esay;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;

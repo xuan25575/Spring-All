@@ -14,7 +14,9 @@ import io.netty.handler.timeout.IdleStateHandler;
 import java.util.concurrent.TimeUnit;
 
 /**
- * 心跳机制检测案例.
+ * 1.心跳机制检测案例.
+ * 2.Springboot 整合心跳机制
+ *
  * 需要客户端连接进来。
  */
 public class MyServer {

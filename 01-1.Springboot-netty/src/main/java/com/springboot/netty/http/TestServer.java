@@ -1,4 +1,4 @@
-package com.springboot.http;
+package com.springboot.netty.http;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
