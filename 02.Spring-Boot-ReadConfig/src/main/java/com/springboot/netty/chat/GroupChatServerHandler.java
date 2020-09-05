@@ -14,7 +14,8 @@ public class GroupChatServerHandler extends SimpleChannelInboundHandler<String>{
 
     //public static List<Channel> channels = new ArrayList<Channel>();
 
-    //使用一个 hashMap 管理
+    //使用一个 hashMap 管理 需要连接数据库。
+    //私聊实现的 map.put("id", channel) 通过用户id（用户对象） 找到指定的channel  发送消息。
     //public static Map<String, Channel> channels = new HashMap<String,Channel>();
 
     //定义一个 channel 组，管理所有的 channel

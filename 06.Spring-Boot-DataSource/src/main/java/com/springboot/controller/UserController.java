@@ -24,7 +24,7 @@ public class UserController {
 	}
 
 	@RequestMapping("get-ry")
-	@TargetDataSource(value = DataSourceNames.SECOND)
+	@TargetDataSource(value = DataSourceNames.SEMatcherCOND)
 	public List<Map<String, Object>> getRy(){
 		String sql = "select * from sys_user";
 		return jdbcTemplate.queryForList(sql);

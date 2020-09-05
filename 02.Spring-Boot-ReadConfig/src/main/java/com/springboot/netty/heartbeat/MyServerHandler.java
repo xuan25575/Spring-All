@@ -35,7 +35,7 @@ public class MyServerHandler extends ChannelInboundHandlerAdapter {
             System.out.println("服务器做相应处理..");
 
         }
-        //如果发生空闲，我们关闭通道
-        ctx.channel().close();
+        //如果发生空闲，我们关闭通道，只会接受一次就会关闭通道。心跳结束了
+       // ctx.channel().close();
     }
 }
