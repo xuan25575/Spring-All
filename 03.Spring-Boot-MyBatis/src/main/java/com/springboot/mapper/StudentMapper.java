@@ -5,6 +5,12 @@ import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 
+/**
+ *
+ * spring boot整合 Mybatis
+ * @Mapper
+ * @MapperScan 扫描
+ */
 @Mapper
 public interface StudentMapper {
 
