@@ -8,3 +8,5 @@
 7. Spring boot 整合AOP+数据库配置多数据源读取配置
 8. Spring boot Aop整合日志   
 9. Spring boot schedule定时任务(7.1)
+10. Spring boot thymeleaf 案例
+11. Spring boot redis 缓存
