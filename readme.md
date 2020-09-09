@@ -10,3 +10,5 @@
 9. Spring boot schedule定时任务(7.1)
 10. Spring boot thymeleaf 案例
 11. Spring boot redis 缓存
+12. Spring boot ehCache 缓存
+13. Spring boot shiro
