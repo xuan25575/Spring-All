@@ -12,3 +12,4 @@
 11. Spring boot redis 缓存
 12. Spring boot ehCache 缓存
 13. Spring boot shiro
+14. Spring boot shiro rememberMe
