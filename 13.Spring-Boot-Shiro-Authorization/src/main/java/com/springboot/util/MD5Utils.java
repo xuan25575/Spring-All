@@ -6,7 +6,7 @@ import org.apache.shiro.util.ByteSource;
 public class MD5Utils {
 	private static final String SALT = "huang_2";
 
-	private static final String ALGORITH_NAME = "md5";// algorith
+	private static final String ALGORITH_NAME = "md5";
 
 	private static final int HASH_ITERATIONS = 2;
 
@@ -22,8 +22,7 @@ public class MD5Utils {
 	}
 	public static void main(String[] args) {
 		
-		System.out.println(MD5Utils.encrypt("admin", "admin"));
-		System.out.println(MD5Utils.encrypt("huang2", "123456"));
+		System.out.println(MD5Utils.encrypt("tester", "123456"));
 	}
 
 }
