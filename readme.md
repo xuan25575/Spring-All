@@ -1,6 +1,7 @@
 ## Spring +Spring Boot 学习
-1. netty 案例(1.1)  
-2. Spring boot启动  
+ 
+1. Spring boot启动  
+2. netty 案例 
 3. spring boot 配置读取  
 4. Spring boot 整合Mybatis 使用和解析
 5. Spring boot jdbcTemplate 使用浅析
@@ -14,3 +15,5 @@
 13. Spring boot shiro
 14. Spring boot shiro rememberMe
 15. Spring boot shiro RBAC案例
+16. Spring boot shiro 整合redis
+17. Spring boot shiro 整合ehCache
