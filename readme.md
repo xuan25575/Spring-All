@@ -17,3 +17,4 @@
 15. Spring boot shiro RBAC案例
 16. Spring boot shiro 整合redis
 17. Spring boot shiro 整合ehCache
+17. Spring boot shiro session 和thymeleaf eTag
