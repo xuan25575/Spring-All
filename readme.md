@@ -17,5 +17,7 @@
 15. Spring boot shiro RBAC案例
 16. Spring boot shiro 整合redis
 17. Spring boot shiro 整合ehCache ,17. Spring boot shiro session 和thymeleaf eTag
-
 18. Spring boot Jackson
+19. Spring boot Test
+20. Spring boot swagger2
+27. Spring boot Mybatis Plus
