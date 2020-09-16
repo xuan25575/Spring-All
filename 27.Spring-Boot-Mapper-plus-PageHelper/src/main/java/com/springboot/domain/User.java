@@ -1,5 +1,7 @@
 package com.springboot.domain;
 
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 
 import java.util.Date;
@@ -8,6 +10,9 @@ import java.util.Date;
 @TableName(value = "user")
 public class User {
 
+
+    //自增
+    @TableId(type = IdType.AUTO)
     private Long id;
 
     private String username;
