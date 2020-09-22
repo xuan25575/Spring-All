@@ -20,4 +20,7 @@
 18. Spring boot Jackson
 19. Spring boot Test
 20. Spring boot swagger2
+21. Spring boot Actuator
+22. Spring boot Email
+23. Spring boot Admin
 27. Spring boot Mybatis Plus
