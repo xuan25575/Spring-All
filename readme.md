@@ -23,4 +23,7 @@
 21. Spring boot Actuator
 22. Spring boot Email
 23. Spring boot Admin
+24. Spring boot Devtools
+25. Spring boot Exception
+26. Spring boot Filter Interceptor
 27. Spring boot Mybatis Plus
