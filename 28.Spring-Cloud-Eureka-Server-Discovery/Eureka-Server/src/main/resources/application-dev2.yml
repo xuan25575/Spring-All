@@ -1,0 +1,15 @@
+server:
+  port: 7002
+
+spring:
+  application:
+    name: Eureka-Server
+
+eureka:
+  instance:
+    hostname: dev2
+  client:
+    serviceUrl:
+      defaultZone: http://eureka7002.com:7002/eureka/
+  server:
+    enable-self-preservation: false
